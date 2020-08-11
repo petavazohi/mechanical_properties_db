@@ -27,7 +27,7 @@ rf.close()
 i = 1
 for idata in data:
     
-    elastic_tensor    = idata['elasticity']['elastic_tensor']
+    elastic_tensor    = idata['elasticity']['elastic_tensor_original']
     compliance_tensor = idata['elasticity']['compliance_tensor']
     formula = idata['pretty_formula']
     material_id = idata['material_id']
